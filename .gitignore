@@ -1,0 +1,8 @@
+extractor/bin
+extractor/obj
+
+WolvenKit/*
+!WolvenKit/.gitkeep
+
+output/*
+!output/.gitkeep

@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <NoWarn>MSB3277</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CommunityToolkit.Mvvm">
+      <HintPath>..\WolvenKit\CommunityToolkit.Mvvm.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="WolvenKit.Core">
+      <HintPath>..\WolvenKit\WolvenKit.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="WolvenKit.Common">
+      <HintPath>..\WolvenKit\WolvenKit.Common.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="WolvenKit.RED4">
+      <HintPath>..\WolvenKit\WolvenKit.RED4.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="WolvenKit.Modkit">
+      <HintPath>..\WolvenKit\WolvenKit.Modkit.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
